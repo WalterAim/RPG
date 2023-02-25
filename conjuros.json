@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Buenas Bayas",
+        "Level": 1,
+        "school": "transmutacion",
+        "lauchTime": "accion",
+        "duration": "1 hora",
+        "scope": "toque",
+        "components": ["somatico", "verbal", "material"],
+        "materials": ["ramita de muerdago"],
+        "description": "",
+        "classes": [
+            "explorador"
+        ],
+        "type": "curacion recuperacion alimento materilizacion",
+        "ritualizable": false
+    },
+    {
+        "name"
+    }
+]

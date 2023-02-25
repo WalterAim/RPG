@@ -1,14 +1,298 @@
+:root {
+    --base: #228b22;
+    --base-trans: #82eb82;
+    --shadow: 0px 0px 28px #eee;
+}
+
 body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: var(--base);
+    padding: 14px;
+    box-shadow: var(--shadow);
+}
+
+header h1 {
+    margin: 0px;
+    color: white;
+    font-weight: 600;
+}
+
+main {
+    padding: 20px 144px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+main div h2 {
+    margin: 0px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+main section {
+    padding: 20px;
+    background-color: white;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main section .buscador {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    justify-content: space-between;
+    gap: 12px;
+    box-shadow: none;
+}
+
+main section .buscador input {
+    width: 80%;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background-color: white;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+main section .buscador input:focus {
+    background-color: whitesmoke;
+}
+
+main section .buscador input:hover {
+    font-style: italic;
+    transition: 0.4s;
+}
+
+main section .buscador button {
+    width: 16%;
+    border: 0px solid;
+    outline: none;
+    background-color: whitesmoke;
+    font-size: 16px;
+    color: black;
+    transition: 0s;
+    border-radius: 4px;
+}
+
+main section .buscador button:hover {
+    background-color: var(--base-trans);
+    transition: 0.2s;
+}
+
+main section .buscador button:active {
+    width: 16%;
+    border: 0px solid;
+    outline: none;
+    background-color: var(--base);
+    font-size: 16px;
+    color: white;
+    transition: 0s;
+}
+
+main section .bandeja {
+    background-color: whitesmoke;
+    width: auto;
+    min-height: 200px;
+    padding: 12px;
+    box-shadow: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+main section .bandeja .conjuro {
+    background-color: white;
+    width: auto;
+    /*box-shadow: var(--shadow);*/
+    transition: 0.2s;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    aspect-ratio: 21/13;
+}
+
+main section .bandeja .conjuro:hover {
+    transition: 0.2s;
+    border-radius: 0px 16px 0px 16px;
+    transform: scale(0.96);
+}
+
+main section .bandeja .conjuro .encabezado {
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    box-shadow: none;
+}
+
+main section .bandeja .conjuro .encabezado .titulo {
+    padding: 0px;
+    box-shadow: none;
+    font-weight: 400;
+    margin: 0px;
+    border-bottom: 2px solid var(--base);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+}
+
+main section .bandeja .conjuro .encabezado .titulo h3{
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+main section .bandeja .conjuro .encabezado .titulo p {
+    font-weight: 400;
+    margin: 0px;
+    align-self: center;
+}
+
+main section .bandeja .conjuro .encabezado p {
+    padding: 0px;
+    margin: 0px;
     background-color: white;
 }
 
-div {
-    font-family: sans-serif;
-    font-size: 42px;
-    background-color: whitesmoke;
-    padding: 10px;
-    border-radius: 4px;
-    text-align: center;
-    box-shadow: 0px 0px 50px #fafafa;
-    width: 400px;
+main section .bandeja .conjuro .cuerpo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background-color: white;
+    padding: 0px;
+    margin: 0px
 }
+
+main section .bandeja .conjuro .cuerpo .tipo {
+    margin:0px;
+    display: flex;
+    gap: 4px;
+}
+
+main section .bandeja .conjuro .cuerpo .tipo div {
+    align-self: center;
+}
+
+main section .bandeja .conjuro .cuerpo .tipo p{
+    margin:0px;
+    padding: 4px;
+    background-color: var(--base-trans);
+    border-radius: 4px;
+}
+
+
+main section .bandeja .conjuro .cuerpo .tipo-2 {
+    background-color: var(--base-trans);
+    padding: 4px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+main section .bandeja .conjuro .cuerpo .tipo-2 p {
+    margin: 0px;
+}
+
+main section .bandeja .conjuro .cuerpo .materiales {
+    flex-direction: column;
+    text-align: left;
+}
+
+main section .bandeja .conjuro .cuerpo .materiales div {
+    width: 100%;
+}
+/*
+
+main section .bandeja .conjuro .titulo-conjuro {
+    padding: 0px;
+    box-shadow: none;
+    font-weight: 400;
+    margin: 0px;
+    border-bottom: 2px solid var(--base);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main section .bandeja .conjuro .titulo-conjuro h3{
+    font-weight: 400;
+    margin: 0px;
+}
+
+main section .bandeja .conjuro .titulo-conjuro p{
+    font-weight: 400;
+    margin: 0px;
+}
+
+main section .bandeja div p {
+    padding: 2px 0px;
+    margin: 0px;
+}
+
+main section .bandeja .conjuro .datos {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0px;
+    margin: 4px 0px 0px 0px;
+}
+
+main section .bandeja .conjuro .datos p {
+    padding: 0px;
+    margin: 0px;
+}
+
+main section .bandeja .conjuro .sect-datos {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+main section .bandeja .conjuro .sect-datos p {
+    background-color: whitesmoke;
+    padding: 4px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+main section .bandeja .conjuro .componentes .material {
+
+
+}
+
+main section .bandeja .conjuro .materiales {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+main section .bandeja .conjuro .materiales p {
+    background-color: whitesmoke;
+    padding: 4px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+main section .bandeja .conjuro .componentes .material {
+
+}
+*/

@@ -1,30 +1,59 @@
-function calculoDeCaracteristicas() {
+/*
+let a =
+`                    <div class="conjuro"> 
+<header class="encabezado">
+    <div class="titulo">
+        <h3>Nombre</h3>
+        <p>Nivel</p>
+    </div>
+    <p>Escuela</p>
+</header>  
+<main class="cuerpo">
+    <div class="tiempo-de-conjuración tipo">
+        <div>tiempo de conjuración</div>
+        <p>tiempoDeConjuracion</p>
+    </div>
+    <div class="componentes tipo">
+        <div>componentes:</div>
+        <p>Somatico</p>
+    </div>
+    <div class="duración tipo">
+        <div>Duración</div>
+        <p>duracion</p>
+    </div>
+    <div class="alcance tipo">
+        <div>Alcance</div>
+        <p>alcance</p>
+    </div>
+    <div class="descripción">
+]       descripcion
+    </div>
+</main>
+</div>`;
+*/
+let bandeja = document.getElementById("bandeja");
+
+//function main() {}
+
+let listSpell = [
+
+]
+
+function HTMLization({name, level, school, lauchTime, duration, scope, components , materials, description, classes, type, ritualizable}) {
+    let spellHTML = ``;
+    spellHTML += `<header class="encabezado"><div class="titulo"><h3>${name}</h3><p>${school + ` ` + (ritualizable)? `ritual`: ``}</p></div><p>Escuela</p></header>`
+    spellHTML += `<main class="cuerpo">`;
+    spellHTML += `<div class="tiempo-de-conjuración tipo"><div>tiempo de conjuración</div><p>${lauchTime}</p></div>`;
+    spellHTML += `<div class="componentes tipo"><div>componentes:</div><p>Somatico</p></div>`;
+    return null;
 }
 
+//let HTMLSpells = listSpell.map(e => HTMLization(e));
 
-
-function porcentaje() {
-    return Math.random() * 100000000 / 1000000;
-}
-
-function d(faces) {
-    return Math.trunc(porcentaje() / (1/faces * 100)) + 1;
-}
-
-function dadoCa() {
-    let arr = [d(6),d(6),d(6),d(6)].sort();
-    arr.shift();
-    return arr.reduce((a, e) => a + e);
+function render() {
+    bandeja.innerHTML = "";
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    let body = document.getElementsByTagName("body")[0];
-function a() {
-    body.innerHTML="";
-    let div = document.createElement("div");
-    //div.innerHTML = `| ${d(6)} ${d(6)} ${d(6)} ${d(6)} |`;
-    div.innerHTML = `| ${dadoCa()} ${dadoCa()} ${dadoCa()} ${dadoCa()} ${dadoCa()} ${dadoCa()} |`
-    body.appendChild(div);
-}
-    setInterval(a, 500);
-})
+    render()
+});
