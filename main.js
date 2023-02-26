@@ -2986,18 +2986,39 @@ let spellObjects =  [];
 for(let i = 0; i < infoSpells.length; i++) {
     console.log(i);
     spellObjects.push(sb.transform(infoSpells[i]));
-    console.log(spellObjects[i])
+}
+spellObjects = spellObjects.reverse();
+
+//render
+let bandeja = document.getElementById("bandeja");
+let input = document.getElementById("uwu");
+
+function onSearch() {
+    bandeja.innerHTML = ``;
+    let sR = spellObjects.slice(0,spellObjects.length);
+    let value = input.value;
+    //if(value == "") return;
+    value = value;
+    let values = value.split(":")
+    console.log(values, value)
+    //for(let i = 0; i < value.length; i++)
+        sR = sR.filter(e => e[values[0]] == values[1]);
+    //alert(searchResult)
+    for(let spellObj of sR)
+        bandeja.innerHTML += sb.HTMLize(spellObj);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+function onRender() {
     var mediaqueryList = window.matchMedia("(max-width: 1000px)");
-    if(mediaqueryList.matches) {
-        document.getElementById('titulo-piola').remove();
-    }
-    let bandeja = document.getElementById("bandeja");
-    let searchResult = spellObjects.filter(e => e.level == "Truco")
+    if(mediaqueryList.matches) document.getElementById('titulo-piola').remove();
+
+    let button = document.getElementById("filtrar");
+
     bandeja.innerHTML = ``;
-    for(let spellObj of searchResult)
-        bandeja.innerHTML += sb.HTMLize(spellObj);
-});
+    for(let spellObj of spellObjects)
+    bandeja.innerHTML += sb.HTMLize(spellObj);
+    button.addEventListener("click", onSearch)
+}
+
+document.addEventListener("DOMContentLoaded", onRender);
 

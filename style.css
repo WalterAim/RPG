@@ -301,9 +301,6 @@ main section .bandeja .conjuro .componentes .material {
     main {
         padding: 0px;
     }
-    #header {
-        width: 100vw;
-    }
     #body {
         width: 100vw;
     }
