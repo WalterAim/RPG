@@ -1436,26 +1436,96 @@ conjuro finalice, puedes cambiar la dirección en la cual la línea sale proyect
 
 //
 
-Ráfaga de espinas [Hail of Thorns]
-Nivel 1, conjuración
-Tiempo de lanzamiento: 1 acción adicional
-Alcance: Personal
-Componenetes: V
-Duración: Concentración, hasta 1 minuto
+Ráfaga de espinas [Hail of Thorns]@
+Nivel 1, conjuración@
+Tiempo de lanzamiento: 1 acción adicional@
+Alcance: Personal@
+Componenetes: V@
+Duración: Concentración, hasta 1 minuto@
 La próxima vez que impactes a una criatura con un arma a distancia antes de que el conjuro finalice, este conjuro 
-crea una lluvia de espinas que nacen de tu arma a distancia o de tu munición. Además del efecto normal del ataque, el objetivo del mismo y cada criatura
+crea una lluvia de espinas que nacen de tu arma a distancia o de tu munición. Además del efecto normal del ataque, 
+el objetivo del mismo y cada criatura a 5 pies de él deben realizar una tirada de salvación de Destreza. 
+Una criatura sufre 1d10 puntos de daño perforante con una salvación fracasada, o la mitad con una salvación con éxito.
+A niveles superiores. Cuando lanzas este hechizo usando un espacio de conjuros de nivel 2 o superior, el daño se 
+incrementa en 1d10 por cada nivel de espacio de conjuros por encima de nivel 1 (hasta un máximo de 6d10).
 
-a 5 pies de él deben realizar una tirada de sal-
-vación de Destreza. Una criatura sufre 1d10
+//
 
-puntos de daño perforante con una salvación
-fracasada, o la mitad con una salvación con
-éxito.
-A niveles superiores. Cuando lanzas este
+Quitar maldición [Remove Curse]@
+Nivel 3, abjuración@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Toque@
+Componenetes: V, S@
+Duración: Instantánea@
+A tu toque, todas las maldiciones afectando a una criatura o un objeto terminan. Si el objeto es un objeto mágico maldito,
+su maldición permanece, pero el conjuro rompe la vinculación del portador con el objeto, para que pueda ser retirado o 
+cancelado.
 
-hechizo usando un espacio de conjuros de ni-
-vel 2 o superior, el daño se incrementa en
+//
 
-1d10 por cada nivel de espacio de conjuros
-por encima de nivel 1 (hasta un máximo de
-6d10).
+Proyectil mágico [Magic Missile]@
+Nivel 1, evocación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 120 pies (24 casillas, 36 m)@
+Componenetes: V, S@
+Duración: Instantánea@
+Creas tres dardos brillantes de fuerza mágica.
+Cada dardo impacta a una criatura de tu elección que puedas ver dentro del alcance. Un dardo inflige 1d4 + 1 puntos 
+de daño por fuerza a su objetivo. Todos los dardos impactan a la vez, y los puedes dirigir para que impacten a una 
+criatura o a varias. A niveles superiores. Cuando lanzas este hechizo usando un espacio de conjuros de nivel 2 o 
+superior, el conjuro crea un dardo más por cada nivel de espacio de conjuros por encima de nivel 1.
+
+//
+
+Proyectar imagen [Project Image]@
+Nivel 7, ilusión@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 500 millas (804 km)@
+Componenetes: V, S, M (una pequeña réplica de ti, hecha con materiales que valgan al menos 5 po)@
+Duración: Concentración, hasta 1 día@
+Creas una copia ilusoria de ti que persiste mientras dure el conjuro. La copia puede aparecer en cualquier 
+ubicación dentro del alcance que hayas visto con anterioridad, independientemente de las barreras que intervengan. 
+La ilusión se ve y suena como tu pero es intangible. Si la ilusión recibe cualquier daño, ésta desaparece, y el conjuro 
+finaliza. Puedes usar una acción para mover esta ilusión hasta el doble de tu velocidad, y hacer que realice gestos, 
+hable y se comporte de cualquier forma que elijas. Ésta copia tus manierismos perfectamente. Puedes ver a través de sus 
+ojos y escuchar a través de sus oídos tal como si estuvieses en ese lugar. En tu turno, como una acción adicional, 
+puedes cambiar el uso de sus sentidos a usar los tuyos propios, o viceversa. Mientras que estas usando sus sentidos, 
+estarás cegado y ensordecido en lo que respecta a tu propio alrededor. Las interacciones físicas con la imagen revelarán
+que es una ilusión, debido a que las cosas pueden atravesarla. Una criatura que usa una acción para examinar la imagen
+puede determinar que es una ilusión con una prueba con éxito de Inteligencia (Investigación) contra tu CD de salvación 
+de conjuros. Si la criatura percibe la ilusión por lo que es, la criatura podrá ver a través de la imagen y cualquier 
+ruido que haga sonará hueco para la criatura.
+
+//
+
+Proyección astral [Astral Projection]@
+Nivel 9, nigromancia@
+Tiempo de lanzamiento: 1 hora@
+Alcance: 10 pies (2 casillas, 3 m)@
+Componenetes: V, S, M (por cada criatura afectada por este conjuro, debes utilizar un jacinto [piedra preciosa cristalina 
+de color púrpura brillante. El jacinto puro contiene un metal precioso muy poco común llamado Zirconio] por un valor de 
+1.000 po y una barra de plata tallada por un valor de 100 po, todo lo cual el conjuro consume)@
+Duración: Especial@
+Tú y hasta ocho criaturas voluntarias dentro del alcance proyectáis vuestros cuerpos astrales hacia el Plano Astral 
+(el conjuro falla y se pierde el lanzamiento si ya estás en ese plano). El cuerpo material que dejas atrás queda 
+inconsciente y en un estado de animación suspendida; no necesita comer o respirar y no envejece.
+Tu cuerpo astral se parece a tu forma mortal en casi todos los aspectos, replicando tus estadísticas de juego y 
+posesiones. La diferencia principal es el añadido de un cordón de plata que se extiende desde tus omoplatos y que te 
+sigue, volviéndose invisible después de 1 pie (33 cm). Este cordón es tu nexo de unión con tu cuerpo material. 
+Mientras la atadura permanezca intacta, puedes encontrar tu camino de vuelta a casa. Si el cordón se corta, algo que 
+solo pasa cuando un efecto indica específicamente que lo hace, tu alma y tu cuerpo quedan separados, matándote al 
+instante. Tu forma astral puede viajar libremente a través del Plano Astral y puede atravesar cualquier portal que 
+conduzca a cualquier otro plano. Si entras en un plano nuevo o regresas al plano en el que estabas cuando lanzaste el
+conjuro, tu cuerpo y tus posesiones son transportadas junto el cordón de plata, permitiéndote regresar a tu cuerpo 
+mientras entras en el plano nuevo. Tu forma astral es una encarnación separada. Cualquier daño u otro efecto que sufra 
+no tienen efecto sobre tu cuerpo físico, ni siguen existiendo cuando regresas a él. El conjuro finaliza para ti y para
+tus compañeros cuando utilices tu acción para cancelarlo. Cuando finaliza el conjuro, la criatura afectada por él regresa
+a su cuerpo físico, y se despierta. El conjuro también podría finalizar prematuramente para ti o uno de tus compañeros. 
+Un conjuro de disipar magia con éxito utilizado contra un cuerpo físico o astral finaliza el conjuro para esa criatura. 
+Si el cuerpo original o la forma astral de una criatura cae a 0 Puntos de Golpe, el conjuro finaliza para esa criatura. 
+Si el conjuro finaliza y el cordón de plata sigue intacto, el cordón devuelve la forma astral hasta su cuerpo, terminado 
+su estado de animación suspendida. Si regresas de forma prematura a tu cuerpo, tus compañeros permanecen en sus formas 
+astrales y deben encontrar su propio camino de vuelta a sus cuerpos, normalmente cuando caen a 0 Puntos de Golpe.
+
+//
+
