@@ -110,7 +110,7 @@ main section .bandeja {
     padding: 12px;
     box-shadow: none;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 12px;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -126,7 +126,7 @@ main section .bandeja .conjuro {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    aspect-ratio: 21/13;
+    /*aspect-ratio: 13/21;*/
 }
 
 main section .bandeja .conjuro:hover {
@@ -296,3 +296,19 @@ main section .bandeja .conjuro .componentes .material {
 
 }
 */
+
+@media (max-width: 1000px) {
+    main {
+        padding: 0px;
+    }
+    #body {
+        width: 100vw;
+    }
+    #sect {
+        padding: 8px;
+    }
+    #bandeja {
+        padding: 0px;
+        gap:0px;
+    }
+}
