@@ -2983,29 +2983,64 @@ let sb = new SpellBuilder();
 let spell = sb.transform(infoSpells[infoSpells.length-1])
 
 let spellObjects =  [];
-for(let i = 0; i < infoSpells.length; i++) {
-    console.log(i);
+for(let i = 0; i < infoSpells.length; i++)
     spellObjects.push(sb.transform(infoSpells[i]));
-}
 spellObjects = spellObjects.reverse();
 
 //render
 let bandeja = document.getElementById("bandeja");
 let input = document.getElementById("uwu");
 
-function onSearch() {
+function clean() {
     bandeja.innerHTML = ``;
-    let sR = spellObjects.slice(0,spellObjects.length);
-    let value = input.value;
+}
+
+function uwu(w, a){
+    let condition = false;
+    
+    for(let key of ["name", "school", "duration", "launchTime", "components"]) {
+        condition |= new RegExp(w, "i").test(a[key]);
+    }
+    return condition;
+}
+
+function onSearch() {
+    let { value } = input;
+    let values = value.split(" ");
+    console.log(JSON.stringify(value), JSON.stringify(values))
+    let spells = spellObjects.map(e => e);
+    let newS = []
+    for(let spell of spells) {
+        let condition = true;
+        for(let word of values) 
+            condition &= (spell.level == word||new RegExp(word, "i").test(spell.name));
+        if(condition) newS.push(spell);     
+}
+    console.log(newS)
+    clean()
+    let htmlSpells = newS.map(e => sb.HTMLize(e)).join("");
+    bandeja.innerHTML = htmlSpells;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //let value = input.value.match(/[(][a-z]+:+[)]/g);
     //if(value == "") return;
-    value = value;
-    let values = value.split(":")
-    console.log(values, value)
     //for(let i = 0; i < value.length; i++)
-        sR = sR.filter(e => e[values[0]] == values[1]);
+    //sR = sR.filter(e => e[values[0]] == values[1]);
     //alert(searchResult)
-    for(let spellObj of sR)
-        bandeja.innerHTML += sb.HTMLize(spellObj);
+    //for(let spellObj of sR)
+    //bandeja.innerHTML += sb.HTMLize(spellObj);
+    //let sR = spellObjects.slice(0,spellObjects.length);
 }
 
 function onRender() {
