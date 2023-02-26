@@ -998,3 +998,464 @@ tira un 2d10 adicional por cada nivel de espacio de conjuros por encima de nivel
 
 //
 
+
+Revivir a los muertos [Raise Dead]@
+Nivel 5, nigromancia@
+Tiempo de lanzamiento: 1 hora@
+Alcance: Toque@
+Componenetes: V, S, M (un diamante valorados en al menos 500 po, que el conjuro consume)@
+Duración: Instantánea@
+Devuelves a una criatura muerta que tocas a la vida, siempre que no haya estado muerta más de 10 días. Sí el alma de 
+la criatura es tanto voluntaria como libre para volver a reunirse con el cuerpo, la criatura regresará a la
+vida con 1 punto de golpe. Este conjuro además neutraliza cualquier veneno y cura enfermedades no mágicas que
+afectaron a la criatura en el momento de su muerte. Sin embargo, este conjuro no elimina enfermedades mágicas, 
+maldiciones o efectos similares; si éstos no son eliminados previamente a lanzar el conjuro, estos toman efecto
+cuando la criatura retorna a la vida. El conjuro no puede devolver a una criatura muerto viviente a la vida.
+Este conjuro cierra todas las heridas mortales, pero no devuelve partes faltantes del cuerpo. Si a la criatura le 
+faltan partes integrales de su cuerpo, su cabeza por ejemplo, el conjuro falla automáticamente. Regresar de la muerte 
+es una experiencia dura. El objetivo sufre un penalizador de -4 en todas las tiradas de ataque, de salvación y pruebas 
+de característica. Cada vez que realice un descanso prolongado, el penalizador se reduce en 1 hasta que desaparece.
+
+//
+
+
+Revivir [Revivify]@
+Nivel 3, conjuración@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Toque@
+Componenetes: V, S, M (diamantes valorados en al menos 300 po, que el conjuro consume)@
+Duración: Instantánea@
+Tocas a una criatura que haya muerto durante el último minuto. Esa criatura vuelve a la vida con 1 punto de golpe. 
+Este conjuro no puede devolver la vida a criaturas que hayan muerto de vejez, ni puede regenerar partes del cuerpo
+perdidas.
+
+//
+
+Retirada expeditiva [Expeditious Retreat]@
+Nivel 1, transmutación@
+Tiempo de lanzamiento: 1 acción adicional@
+Alcance: Personal@
+Componenetes: V, S@
+Duración: Concentración, hasta 10 minutos@
+Este conjuro te permite moverte a un ritmo increíble. Cuando lanzas este conjuro, y posteriormente, 
+puedes usar una acción adicional en cada uno de tus siguientes turnos hasta que el conjuro finalice, 
+para realizar la acción carrera.
+
+//
+
+Resurrección verdadera [True Resurrection]@
+Nivel 9, nigromancia@
+Tiempo de lanzamiento: 1 hora@
+Alcance: Toque@
+Componenetes: V, S, M (agua bendita para rociar y diamantes valorados al menos en 25.000 po, los cuales el conjuro 
+consume)@
+Duración: Instantánea@
+Tocas a una criatura que ha estado muerta por no más de 200 años y que murió por cualquier causa excepto por vejez. 
+Si la criatura es un alma libre y es voluntaria, la criatura recupera la vida con todos sus Puntos de Golpe.
+El conjuro cierra todas las heridas, neutraliza cualquier veneno, cura todas las enfermedades, y elimina cualquier 
+maldición que afectara a la criatura cuando murió. El conjuro reemplaza el daño o los órganos perdidos y miembros.
+El conjuro puede incluso proveer un nuevo cuerpo si el original ya no existe, en ese caso tienes que decir el nombre 
+de la criatura. Entonces la criatura aparece en un espacio desocupado que elijas a 10 pies (2 casillas,3m) de ti.
+
+//
+
+Resurrección [Resurrection]@
+Nivel 7, nigromancia@
+Tiempo de lanzamiento: 1 hora@
+Alcance: Toque@
+Componenetes: V, S, M (un diamante valorado en al menos 1.000 mo, que el conjuro consume)@
+Duración: Instantánea@
+Tocas a una criatura que lleve muerta no más de un siglo, que no muriera por vejez y que no sea un muerto viviente. 
+Si su alma es libre y voluntaria, el objetivo vuelve a la vida con todos sus Puntos de Golpe.
+Este conjuro neutraliza cualquier tipo de veneno y cura las enfermedades normales que afligían a la criatura 
+cuando murió. No puede, sin embargo, quitar enfermedades mágicas, maldiciones y efectos similares: si tales efectos 
+no se han eliminado del objetivo antes de realizar el conjuro, estos afectarán al objetivo en su retorno a la vida.
+Este conjuro cierra todas las heridas mortales y regenera cualquier parte del cuerpo perdida.
+Regresar de la muerte es una experiencia dura. El objetivo sufre un penalizador de -4 en todas las tiradas de ataque, 
+de salvación y pruebas de característica. Cada vez que realice un descanso prolongado, el penalizador se reduce en 1 
+hasta que desaparece. Lanzar este conjuro para restaurar la vida de una criatura que lleve muerta un año o más te pasa 
+factura enormemente. Hasta que no finalices un descanso prolongado no podrás lanzar más conjuros y tendrás desventaja 
+en todas las tiradas de ataque, tiradas de salvación y pruebas de característica.
+
+//
+
+Restablecimiento menor [Lesser Restoration]@
+Nivel 2, abjuración@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Toque@
+Componenetes: V, S@
+Duración: Instantánea@
+Tocas a una criatura y finalizas o bien una enfermedad o una condición que le aflija. La condición puede ser cegado, 
+ensordecido, paralizado o envenenado.
+
+//
+
+Restablecimiento mayor [Greater Restoration]@
+Nivel 5, abjuración@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Toque@
+Componenetes: V, S, M (polvo de diamante con un valor mínimo de 100 po, que el conjuro consume)@
+Duración: Instantánea@
+Imbuyes a una criatura que toques con energía positiva para deshacer un efecto debilitante. Puedes reducir el 
+nivel de fatiga del objetivo en un nivel, o terminar cualquiera de los siguientes efectos en el objetivo:
+• Un efecto que encanta o petrifica al objetivo.
+• Una maldición, incluida la armonización con un objeto mágico maldito.
+• Cualquier reducción de una de las puntuaciones de característica del objetivo.
+• Un efecto que reduzca los Puntos de Golpe máximos del objetivo.
+
+//
+
+Respiración acuática [Water Breathing]@
+Nivel 3, transmutación (ritual)@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 30 pies (6 casillas, 9 m)@
+Componenetes: V, S, M (un pequeño trozo de junco o una porción de paja)@
+Duración: 24 horas@
+Este conjuro les concede hasta a diez criaturas voluntarias que puedas ver dentro del alcance del conjuro 
+la habilidad de respirar bajo el agua hasta que el conjuro finalice. Las criaturas afectadas también conservan su modo
+de respiración habitual.
+
+//
+
+Resistencia [Resistance]@
+Truco, abjuración@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Toque@
+Componenetes: V, S, M (una capa en miniatura)@
+Duración: Concentración, hasta 1 minuto@
+Tocas a una criatura voluntaria. Antes de que el conjuro finalice, el objetivo puede tirar 1d4 y añadir el 
+número del resultado a una tirada se salvación de su elección. Puede tirar el dado antes o después de hacer la 
+tirada de salvación. Luego el conjuro finaliza.
+
+//
+
+Reprensión infernal [Hellish Rebuke]@
+Nivel 1, evocación@
+Tiempo de lanzamiento: 1 reacción, que debes tomar en respuesta a ser dañado por una criatura hasta 60 pies de 
+ti que puedas ver.@
+Alcance: 60 pies (12 casillas, 18 m)@
+Componenetes: V, S@
+Duración: Instantánea@
+Apuntas con tu dedo, y la criatura que te dañó se ve momentáneamente envuelta por llamas infernales. 
+La criatura debe realizar una tirada de salvación de Destreza. Esta sufre 2d10 puntos de daño por fuego en una 
+salvación fallida, o la mitad del daño en una salvación con éxito.
+A niveles superiores. Cuando lanzas este hechizo usando un espacio de conjuros de nivel 2 o superior, 
+el daño se ve incrementado por 1d10 por cada nivel de espacio de conjuros por encima de nivel 1.
+
+//
+
+
+Remover tierra [Move Earth]@
+Nivel 6, transmutación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 120 pies (24 casillas, 36 m)@
+Componenetes: V, S, M (una hoja de hierro y una pequeña bolsa con una mezcla de tierras de arcilla, marga y arena)@
+Duración: Concentración, hasta 2 horas@
+Elige un área de terreno no mayor de 40 pies (8 casillas, 12 m) de un lado dentro del alcance. 
+Puedes remodelar arcilla, marga, y arena en el área de la forma en que quieras mientras dure el conjuro. 
+Puedes aumentar o reducir la elevación del área, crear o rellenar una zanja, erigir o allanar un muro, o crear un
+pilar. La extensión de cualquiera de estos cambios no puede exceder la mitad de la envergadura de la dimensión más
+larga del área. Así que, si afectas a un cuadrado de 40 pies (8 casillas, 12 m), puedes crear un pilar de hasta
+20 pies (4 casillas, 6 m) de alto, elevar o rebajar la elevación del cuadrado hasta 20 pies (4 casillas, 6 m), 
+excavar una zanja de hasta 20 pies (4 casillas, 6 m) de profundidad, etcétera.
+Lleva 10 minutos completar los cambios.
+Después de cada 10 minutos de concentración en el conjuro, puedes elegir una nueva área de terreno a la que afectar.
+A causa de que la transformación del terreno ocurre de forma lenta, las criaturas en el área no pueden normalmente 
+quedar atrapadas o ser heridas por el movimiento del suelo.
+Este conjuro no puede manipular piedra natural o construcciones de piedra. Las rocas y estructuras se desplazan para 
+acomodarse al nuevo terreno. Si la manera en que modelas el terreno provoca que una estructura se vuelva inestable, 
+ésta puede derrumbarse. De manera similar, este conjuro no afecta directamente el crecimiento de las plantas. La
+tierra movida transporta las plantas con ella.
+
+//
+
+Remendar [Mending]@
+Truco, transmutación@
+Tiempo de lanzamiento: 1 minuto@
+Alcance: Toque@
+Componenetes: V, S, M (dos calamitas)@
+Duración: Instantánea@
+Este conjuro repara una única rotura o rasgadura en un objeto que toques, como un eslabón roto de una cadena, 
+dos mitades de una llave rota, una capa desgarrada, o un odre con filtraciones. Siempre y cuando la rotura o 
+rasgadura no sea mayor de 1 pie (30 cm) en cualquier dimensión, la arreglas, y no queda rastro alguno del daño anterior.
+Este conjuro puede reparar físicamente un objeto mágico o a un constructo, pero el conjuro no puede restaurar 
+la magia a objetos de dicho tipo.
+
+//
+
+Regenerar [Regenerate]@
+Nivel 7, transmutación@
+Tiempo de lanzamiento: 1 minuto@
+Alcance: Toque@
+Componenetes: V, S, M (una rueda de plegarias y agua bendita)@
+Duración: 1 hora@
+Tocas a una criatura y estimulas su capacidad de curación natural. El objetivo recupera 4d8 + 15 Puntos de Golpe. 
+Mientras el conjuro dure, el objetivo recupera 1 punto de golpe al inicio de cada uno de sus turnos (10 Puntos
+de Golpe cada minuto). Los miembros del cuerpo cercenados del objetivo (dedos, piernas, colas, etc.), si es que
+hay alguno, son restaurados después de 2 minutos. Si tienes la parte cercenada y la sostienes juntándola con el muñón, 
+el conjuro causa instantáneamente que la extremidad se una con el muñón.
+
+//
+
+Reencarnar [Reincarnate]@
+Nivel 5, transmutación@
+Tiempo de lanzamiento: 1 hora@
+Alcance: Toque@
+Componenetes: V, S, M (aceites y ungüentos raros que valgan al menos 1.000 po, que el conjuro consume)@
+Duración: Instantánea@
+Tocas a un humanoide muerto o parte de un humanoide muerto. Siempre que la criatura no haya estado muerta por más 
+de 10 días, el conjuro forma un nuevo cuerpo adulto para él y luego llama al alma para que entre en ese cuerpo. 
+Si el alma del objetivo no está libre o es voluntaria a hacerlo, el conjuro falla. La magia modela un nuevo cuerpo para
+que la criatura lo habite, lo que probablemente haga que cambie la raza de la criatura.
+El DM tira un d100 y consulta la siguiente tabla para determinar que forma la criatura toma cuando sea devuelta 
+a la vida, o el DM elige una forma.
+d100 Raza
+01-04 Dracónido
+05-13 Enano de las colinas
+14-21 Enano de las montañas
+22-25 Elfo oscuro
+26-34 Alto Elfo
+35-42 Elfo de los bosques
+43-46 Gnomo del bosque
+47-52 Gnomo de la roca
+53-56 Semielfo
+57-60 Semiorco
+61-68 Mediano piesligeros
+69-76 Mediano fornido
+77-96 Humano
+97-00 Tiflin
+La criatura reencarnada recuerda su vida anterior y experiencias. Mantiene las capacidades que tenía en 
+su forma original, excepto que intercambie su raza original por la nueva y cambie sus rasgos raciales en consecuencia.
+
+//
+
+
+Recluir [Sequester]@
+Nivel 7, transmutación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Toque@
+Componenetes: V, S, M (un polvo compuesto de diamante, esmeralda, rubí, y zafiro con un valor de al menos 5.000 po, 
+que el conjuro consume)@
+Duración: hasta ser cancelado@
+Por medio de este conjuro, una criatura voluntaria o un objeto pueden ser escondidos, a salvo de cualquier detección 
+durante su duración. Cuando lanzas el conjuro y tocas al objetivo, este se vuelve invisible y no puede ser objetivo 
+de conjuros de adivinación ni percibido a través de sensores de videncia por conjuros de adivinación.
+Si el objetivo es una criatura, cae en un estado de animación suspendida. El tiempo deja de correr para ella y 
+no envejece. Puedes asignar una condición para que el conjuro finalice antes. Esta condición puede ser cualquier 
+cosa que escojas, pero tiene que ocurrir o ser visible a 1 milla alrededor del objetivo. 
+Ejemplos incluyen “después de 1.000 años” o “cuando la tarasca despierte.” Este conjuro también termina cuando el 
+objetivo sufre cualquier daño.
+
+//
+
+
+Reanimar a los muertos [Animate Dead]@
+Nivel 3, nigromancia@
+Tiempo de lanzamiento: 1 minuto@
+Alcance: 10 pies (2 casillas, 3 m)@
+Componenetes: V, S, M (una gota de sangre, un pedazo de carne y una pizca de polvo de huesos)@
+Duración: Instantánea@
+Este conjuro crea un servidor muerto viviente. Elige una pila de huesos o el cadáver de un humanoide Pequeño o Medio 
+que esté a tu alcance. Tu conjuro insufla una infame imitación de la vida al objetivo convirtiéndolo en un
+muerto viviente. El objetivo se convierte en un esqueleto, si optas por huesos o un zombi si optas por un cadáver 
+(el DM tiene las estadísticas de juego de la criatura). En cada uno de tus turnos puedes utilizar
+una acción adicional para controlar mentalmente a cualquier criatura creada por este conjuro que se encuentre a 
+menos de 60 pies (12 casillas, 18 m) de ti (si controlas múltiples criaturas, puedes dar órdenes a cualquiera de
+ellas o a todas a la vez al mismo tiempo, emitiendo la misma orden para cada una). Tú decides qué acción realizará 
+la criatura y a donde se desplazará durante su siguiente turno, también puedes emitir una orden general, como por 
+ejemplo vigilar una habitación concreta o un corredor. Si no emites ninguna orden, la criatura sólo actuará en 
+defensa propia contra criaturas hostiles. Una vez que le das una orden a la criatura, ésta no para hasta
+completarla.
+La criatura está bajo tu control durante 24 horas. Después de ese tiempo la criatura deja de obedecer y de realizar 
+cualquier orden encomendada. Para mantener el control sobre la criatura durante otras 24 horas debes lanzar
+este conjuro de nuevo sobre la criatura antes de que expire el periodo de 24 horas. Este uso
+del conjuro renueva tu control sobre 4 criaturas que hayas animado anteriormente con este hechizo, en vez de animar 
+una criatura nueva.
+A niveles superiores. Cuando lanzas este hechizo usando un espacio de conjuros de nivel 4 o superior, animas o 
+reafirmas el control sobre dos muertos vivientes adicionales por cada nivel de espacio de conjuros por encima
+de nivel 3. Cada criatura debe provenir de un cadáver o pila de huesos diferente.
+
+//
+
+Rayo solar [Sunbeam]@
+Nivel 6, evocación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Personal (línea de 60 pies [12 casillas, 18 m])@
+Componenetes: V, S, M (una cristal amplificador o lupa)@
+Duración: Concentración, hasta 1 minuto.@
+Un rayo de resplandeciente luz se proyecta desde tu mano en una línea de 60 pies (12 casillas, 18 m) de 
+largo y 5 pies (1 casilla, 1.5 m) de ancho. Cada criatura en la línea debe realizar una tirada de salvación 
+por Constitución. Con una salvación fallida, la criatura sufre 6d8 puntos de daño radiante y es cegada
+hasta su siguiente turno. Si supera la tirada, sufre la mitad del daño y no es cegada por este conjuro. 
+Los muertos vivientes y los cienos tienen desventaja en esta tirada de salvación. Puedes crear una nueva línea radiante
+como tu acción en cualquier turno posterior, hasta que el conjuro finalice. Durante la duración, una mota de una 
+brillante radiación ilumina desde tu mano. Considera luz brillante un radio de 30 pies (6 casillas, 9m), y luz tenue 
+los siguientes 30 pies (6 casillas, 9m). Esta luz es luz solar.
+
+
+//
+
+Rayo relampagueante [Lightning Bolt]@
+Nivel 3, evocación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Personal (línea de 100 pies [20 casillas, 30 m])@
+Componenetes: V, S, M (un poco de pelo y un cetro de ámbar, cristal o vidrio)@
+Duración: Instantánea@
+Un golpe de relámpago que forma una línea de 100 pies (20 casillas, 30 m) de largo y 5 pies (1 casilla, 1,5 m) de ancho 
+se descarga desde ti en una dirección que elijas. Cada criatura en la línea debe realizar una tirada de salvación de 
+Destreza. Una criatura sufre 8d6 puntos de daño por electricidad con una salvación fracasada, o la mitad del daño 
+con una salvación con éxito.
+El rayo enciende los objetos inflamables en el área que no estén siendo sujetados o transportados.
+A niveles superiores. Cuando lanzas este hechizo usando un espacio de conjuros de nivel 4 o superior, 
+el daño se incrementa en 1d6 por cada espacio de nivel de conjuros por encima de nivel 3.
+
+//
+
+Rayo guiado [Guiding Bolt]@
+Nivel 1, evocación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 120 pies (24 casillas, 36 m)@
+Componenetes: V, S@
+Duración: 1 asalto@
+Un destello de luz golpea directamente a una criatura de tu elección dentro del alcance.
+Realiza un ataque de conjuro a distancia contra el objetivo. Si aciertas, el objetivo sufre 4d6 puntos de daño radiante, 
+y el siguiente ataque realizado contra el objetivo antes de que finalice tu siguiente turno tiene ventaja,
+gracias a la tenue luz mística que brilla en el objetivo hasta entonces. A niveles superiores. Cuando lanzas este
+hechizo usando un espacio de conjuros de nivel 2 o superior, el daño se incrementa por 1d6 por cada nivel de espacio 
+de conjuros por encima de nivel 1.
+
+//
+
+Rayo de luna [Moonbeam]@
+Nivel 2, evocación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 120 pies (24 casillas, 36 m)@
+Componenetes: V, S, M (varias semillas de cualquier planta con semillas de luna y un pedazo de feldespato opalescente)@
+Duración: Concentración, hasta 1 minuto@
+Un rayo plateado de pálida luz alumbra en un cilindro de 5 pies (1 casilla, 1,5 m) de radio y 40 pies (8 casillas, 12 m) 
+de alto centrado en un punto dentro del alcance. Mientras dure el conjuro, luz tenue llena el cilindro.
+Cuando una criatura entra en el área de efecto por primera vez en un turno o empieza su turno en ella, 
+queda envuelta en llamas fantasmales que causan un dolor abrasador, y debe realizar una tirada de salvación de 
+Constitución. Sufre 2d10 puntos de daño radiante con una salvación fallida, o la mitad de dicho daño con una salvación 
+con éxito. Un cambiaformas realiza su tirada de salvación con desventaja. Si falla, también vuelve a su forma original
+de forma instantánea y no puede asumir ninguna forma diferente hasta que abandone la luz del conjuro.
+En cada uno de tus turnos después de haber lanzado el conjuro, puedes usar una acción para mover el rayo 60 pies 
+(12 casillas, 18 m) en cualquier dirección. A niveles superiores. Cuando lanzas este hechizo usando un espacio de
+conjuros de nivel 3 o superior, el daño se incrementa en 1d10 por cada nivel de espacio de conjuros por encima de nivel 2.
+
+//
+
+Rayo de escarcha [Ray of Frost]@
+Truco, evocación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 60 pies (12 casillas, 18 m)@
+Componenetes: V, S@
+Duración: Instantánea@
+Un gélido rayo de luz blancoazulada sale disparada hacia una criatura dentro del alcance. Realiza una tirada de ataque 
+de conjuro contra el objetivo. Con un impacto, éste sufre 1d8 puntos de daño por frío y su velocidad se reduce en 10 
+pies (2 casillas, 3 m) hasta el inicio de tu próximo turno. El daño del conjuro se incrementa en 1d8 cuando alcanzas 
+el nivel 5 (2d8), el nivel 11 (3d8) y el nivel 17 (4d8).
+
+//
+
+Rayo de dolencia [Ray of Sickness]@
+Nivel 1, nigromancia@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 60 pies (12 casillas, 18 m)@
+Componenetes: V, S@
+Duración: Instantánea@
+Un rayo de enfermiza energía verdosa arremete contra una criatura dentro del alcance. Realiza una tirada de ataque 
+de conjuro a distancia contra el objetivo. Con un impacto, el objetivo sufre 2d8 puntos de daño por veneno
+y debe realizar una tirada de salvación de Constitución. Con una salvación fallida, también estará envenenado hasta el 
+final de tu siguiente turno. A niveles superiores. Cuando lanzas este hechizo usando un espacio de conjuros de nivel 2
+o superior, el daño se incrementa en 1d8 por cada nivel de espacio de conjuros por encima de nivel 1.
+
+//
+
+Rayo de debilitamiento [Ray of Enfeeblement]@
+Nivel 2, nigromancia@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 60 pies (18 m)@
+Componenetes: V, S@
+Duración: Concentración, hasta 1 minuto@
+Un rayo negro de energía debilitadora surge de tu dedo hacia una criatura dentro del alcance. Realiza una tirada de 
+ataque de conjuro a distancia contra el objetivo. Con un impacto, el objetivo inflige sólo la mitad de daño con ataques 
+con armas que usen su Fuerza hasta que finalice el conjuro.
+Al final de cada turno del objetivo, éste puede realizar una tirada de salvación de Constitución contra el conjuro. 
+Con un éxito, el conjuro finaliza.
+
+//
+
+Rayo abrasador [Scorching Ray]@
+Nivel 2, evocación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 120 pies (24 casillas, 36 m)@
+Componenetes: V, S@
+Duración: Instantánea@
+Creas tres rayos de fuego y los arrojas a objetivos dentro del alcance. Puedes arrojarlos a uno solo o a varios objetivos.
+Haz un ataque de conjuro a distancia por cada rayo. Al impactar, el objetivo sufre 2d6 puntos de daño por fuego.
+A niveles superiores. Cuando lanzas este hechizo usando un espacio de conjuros de nivel 3 o superior, puedes crear un 
+rayo adicional por cada nivel de espacio por encima de nivel 2.
+
+//
+
+Ralentizar [Slow]@
+Nivel 3, transmutación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 120 pies (24 casillas, 36 m)@
+Componenetes: V, S, M (una gota de melaza)@
+Duración: Concentración, hasta 1 minuto@
+Alteras el tiempo alrededor de seis criaturas a tu elección en un radio de 40 pies (8 casillas, 12 m) dentro del alcance. 
+Cada objetivo debe realizar una tirada de salvación de Sabiduría con éxito o se verá afectada por el conjuro durante su 
+duración. La velocidad de un objetivo afectado se ve reducida a la mitad, recibe un penalizador de -2 a su CA y a sus
+tiradas de salvación de Destreza, y no puede realizar reacciones. En su turno, el objetivo puede usar una acción o bien
+una acción adicional, pero no ambas. Independientemente de las habilidades de la criatura u objetos mágicos, no puede 
+hacer más de un ataque cuerpo a cuerpo o a distancia durante su turno. Si una criatura intenta lanzar un conjuro con un 
+tiempo de lanzamiento de 1 acción, tira un d20. Con un 11 o superior, el conjuro no tendrá efecto hasta su próximo turno,
+y dicha criatura deberá usar su acción en ese turno para completar el conjuro. Si no puede, el conjuro se gasta.
+Una criatura afectada por este conjuro debe hacer otra tirada de salvación de Sabiduría al final de su turno. 
+Con una tirada con éxito, el efecto finaliza para ella.
+
+//
+
+Ráfaga de viento [Gust of Wind]@
+Nivel 2, evocación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Personal (línea de 60 pies [12 casillas, 18 m])@
+Componenetes: V, S, M (una semilla de leguminosa)@
+Duración: Concentración, hasta 1 minuto@
+Una línea de fuerte viento de 60 pies (12 casillas, 18 m) de largo y 10 pies (2 casillas, 3 m) de ancho sale disparada
+de ti en la dirección que elijas por la duración del conjuro. Cada criatura que comience su turno en la línea
+debe superar una tirada de salvación de Fuerza o ser empujado 15 pies (3 casillas, 4.5
+m) de ti en la dirección de la línea. Cualquier criatura en la línea debe gastar
+2 pies de movimiento por cada 1 pie si trata de acercarse a ti.
+La ráfaga dispersa gas o vapor, y extingue velas, antorchas y llamas similares sin proteger en el área. 
+El viento provoca que las llamas protegidas como las que se encuentren en las linternas, bailen salvajemente y tengan
+un 50 por ciento de probabilidades de extinguirse. Como acción adicional en cada uno de tus turnos antes de que el
+conjuro finalice, puedes cambiar la dirección en la cual la línea sale proyectada de ti.
+
+//
+
+Ráfaga de espinas [Hail of Thorns]
+Nivel 1, conjuración
+Tiempo de lanzamiento: 1 acción adicional
+Alcance: Personal
+Componenetes: V
+Duración: Concentración, hasta 1 minuto
+La próxima vez que impactes a una criatura con un arma a distancia antes de que el conjuro finalice, este conjuro 
+crea una lluvia de espinas que nacen de tu arma a distancia o de tu munición. Además del efecto normal del ataque, el objetivo del mismo y cada criatura
+
+a 5 pies de él deben realizar una tirada de sal-
+vación de Destreza. Una criatura sufre 1d10
+
+puntos de daño perforante con una salvación
+fracasada, o la mitad con una salvación con
+éxito.
+A niveles superiores. Cuando lanzas este
+
+hechizo usando un espacio de conjuros de ni-
+vel 2 o superior, el daño se incrementa en
+
+1d10 por cada nivel de espacio de conjuros
+por encima de nivel 1 (hasta un máximo de
+6d10).
