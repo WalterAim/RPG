@@ -82,5 +82,6 @@ class Spell {
 const spells = [
     new Spell(
 
+
     )
 ]
