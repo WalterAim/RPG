@@ -307,6 +307,9 @@ main section .bandeja .conjuro .componentes .material {
     #body {
         width: 100vw;
     }
+    #sect {
+        padding: 8px;
+    }
     #bandeja {
         padding: 0px;
         gap:0px;
