@@ -547,8 +547,8 @@ fuego.
 
 //
 
-Taumaturgia [Thaumaturgy]
-Truco, transmutación.@
+Taumaturgia [Thaumaturgy]@
+Truco, transmutación@
 Tiempo de lanzamiento: 1 acción@
 Alcance: 30 pies (6 casillas, 9 m)@
 Componenetes: V@
@@ -2017,7 +2017,7 @@ y no puede ser disipado. De lo contrario, el muro desaparece cuando el conjuro f
 
 //
 
-
+Muro de hielo [Wall of ice]@
 Nivel 6, evocación@
 Tiempo de lanzamiento: 1 acción@
 Alcance: 120 pies (24 casillas, 48 m)@
@@ -2866,7 +2866,8 @@ conjuro consume)@
 Duración: 8 horas@
 Mientras dure el conjuro, escondes a un objetivo que toques de la magia de adivinación. El objetivo puede ser una 
 criatura voluntaria o un lugar o un objeto no mayor de 10 pies (2 casillas, 3 m) en cualquier dimensión. Éste no puede 
-ser objetivo de magia de adivinación o percibido por sensores mágicos.`
+ser objetivo de magia de adivinación o percibido por sensores mágicos.
+`;
 
 infoSpells = infoSpells.replace(/\n/g, '')
 infoSpells = infoSpells.split("//");
@@ -2887,8 +2888,8 @@ class Spell {
         this.type = type;
     }
 }
-class SpellBuilder {
 
+class SpellBuilder {
     extractName(name) {
         let res = name.split(" ");
         for(let i = 0; i < res.length; i++) 
@@ -2991,6 +2992,7 @@ spellObjects = spellObjects.reverse();
 let bandeja = document.getElementById("bandeja");
 let input = document.getElementById("uwu");
 
+//render
 function clean() {
     bandeja.innerHTML = ``;
 }
@@ -3009,38 +3011,21 @@ function onSearch() {
     let values = value.split(" ");
     console.log(JSON.stringify(value), JSON.stringify(values))
     let spells = spellObjects.map(e => e);
-    let newS = []
+    let newS = [];
     for(let spell of spells) {
         let condition = true;
         for(let word of values) 
-            condition &= (spell.level == word||new RegExp(word, "i").test(spell.name));
+            condition &= (spell.level == word||
+                new RegExp(word, "i").test(spell.name)||
+                (word=="ritual" && spell.ifRitual==true)||
+                spell.scope == word||
+                spell.school == word);
         if(condition) newS.push(spell);     
 }
     console.log(newS)
     clean()
     let htmlSpells = newS.map(e => sb.HTMLize(e)).join("");
     bandeja.innerHTML = htmlSpells;
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    //let value = input.value.match(/[(][a-z]+:+[)]/g);
-    //if(value == "") return;
-    //for(let i = 0; i < value.length; i++)
-    //sR = sR.filter(e => e[values[0]] == values[1]);
-    //alert(searchResult)
-    //for(let spellObj of sR)
-    //bandeja.innerHTML += sb.HTMLize(spellObj);
-    //let sR = spellObjects.slice(0,spellObjects.length);
 }
 
 function onRender() {
@@ -3048,6 +3033,7 @@ function onRender() {
     if(mediaqueryList.matches) document.getElementById('titulo-piola').remove();
 
     let button = document.getElementById("filtrar");
+    input.addEventListener("keypress", (e) => (e.keyCode == "13")? onSearch() : '');
 
     bandeja.innerHTML = ``;
     for(let spellObj of spellObjects)

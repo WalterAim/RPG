@@ -302,10 +302,10 @@ main section .bandeja .conjuro .componentes .material {
         padding: 0px;
     }
     #body {
-        width: 100vw;
+        max-width: 100vw;
     }
     #sect {
-        padding: 8px;
+        padding: 0px;
     }
     #bandeja {
         padding: 0px;
