@@ -4611,12 +4611,12 @@ zombi que está permanentemente bajo tu comando, siguiendo tus órdenes verbales
 
 //
 
-Debilidad mental [Feeblemind]
-Nivel 8, encantamiento
-Tiempo de lanzamiento: 1 acción
-Alcance: 150 pies (30 casillas, 45 m)
-Componenetes: V, S, M (un puñado de arcilla, cristal, vidrio o esferas minerales)
-Duración: Instantánea
+Debilidad mental [Feeblemind]@
+Nivel 8, encantamiento@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 150 pies (30 casillas, 45 m)@
+Componenetes: V, S, M (un puñado de arcilla, cristal, vidrio o esferas minerales)@
+Duración: Instantánea@
 Haces estallar la mente de una criatura que puedas ver dentro del alcance, tratando de quebrar 
 su intelecto y personalidad. El objetivo sufre 4d6 puntos de daño psíquico y debe realizar una 
 tirada de salvación de Inteligencia. Si falla la salvación, las puntuaciones de característica de 
@@ -4626,3 +4626,260 @@ La criatura puede, en todo caso, identificar a sus amigos, seguirlos y hasta pro
 Cada 30 días, la criatura puede repetir la tirada de salvación contra el conjuro. Con una
 salvación con éxito el conjuro finaliza. El conjuro también puede terminar con restablecimiento 
 mayor [greater restoration], sanar [heal] o deseo [wish].
+
+//
+
+De la carne a la piedra [Flesh to Stone]@
+Nivel 6, transmutación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 60 pies (12 casillas, 18 m)@
+Componenetes: V, S, M (una pizca de limo, agua y tierra)@
+Duración: Concentración, hasta 1 minuto@
+Intentas convertir una criatura que puedas ver a tu alcance en piedra. Si el cuerpo de la criatura 
+esta hecho de carne, la criatura debe realizar una tirada de salvación de Constitución.
+Si falla, la criatura queda neutralizada y su carne comienza a endurecerse. Si supera con
+éxito la salvación, la criatura no es afectada. Una criatura neutralizada por este conjuro
+debe realizar otra tirada de salvación de Constitución al final de cada uno de sus turnos. Si se 
+salva exitosamente de este conjuro tres veces, el conjuro finaliza. Si falla la salvación tres veces, 
+se convierte en piedra y la criatura es tratada con el estado de petrificado durante la duración de 
+este conjuro. Los éxitos y fallos no necesitan ser consecutivos; mantén registro de ambos hasta que el 
+objetivo tenga tres de un tipo. Si la criatura es físicamente dañada mientras esta petrificada, 
+sufrirá de deformaciones similares cuando se revierta a su estado original. Si mantienes tu concentración
+en este conjuro durante la duración total posible, la criatura se convierte en piedra hasta que el
+efecto sea anulado.
+
+//
+
+Dañar [Harm]@
+Nivel 6, nigromancia@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 60 pies (12 casillas, 18 m)@
+Componenetes: V, S@
+Duración: Instantánea@
+Liberas una virulenta enfermedad en una criatura que puedes ver dentro del alcance. El objetivo debe 
+realizar una tirada de salvación de Constitución. Si falla la salvación, sufre 14d6 puntos de daño 
+necrótico, o la mitad del daño si supera con éxito la salvación. El daño no puede reducir los Puntos 
+de Golpe del objetivo más allá de 1. Si el objetivo falla la tirada de salvación, sus Puntos de Golpe 
+máximos son reducidos durante 1 hora en una cantidad igual al daño necrótico que recibió. Cualquier
+efecto que elimine una enfermedad, permite que los Puntos de Golpe de la criatura se recuperen con 
+normalidad antes de que ese tiempo pase.
+
+//
+
+Custodia contra la muerte [Death Ward]@
+Nivel 4, abjuración@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Toque@
+Componenetes: V, S@
+Duración: 8 horas@
+Tocas a una criatura y le concedes cierta protección contra la muerte. La primera vez que un 
+objetivo cae a 0 Puntos de Golpe como resultado de sufrir daño, el objetivo se queda en 1 punto de golpe 
+y el conjuro finaliza. Si el conjuro todavía está activo cuando el objetivo se ve abocado a un efecto 
+que va a matarlo instantáneamente sin producir daño, ese efecto no se produce y el conjuro finaliza.
+
+//
+
+Curar heridas en masa [Mass Cure Wounds]@
+Nivel 5, conjuración@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 60 pies (12 casillas, 18 m)@
+Componenetes: V, S@
+Duración: Instantánea@
+Una oleada de energía sanadora se extiende desde un punto a tu elección dentro del alcance. 
+Elige hasta a seis criaturas en una esfera de 30 pies (6 casillas, 9 m) de radio cen-
+trada en ese punto. Cada objetivo recupera Puntos de Golpe igual a 3d8 + tu modificador
+de característica de lanzamiento de conjuros. El conjuro no tiene efecto sobre muertos vivientes o 
+constructos.
+A niveles superiores. Cuando lanzas este hechizo usando un espacio de conjuros de nivel 6 o superior, 
+la curación se incrementa en 1d8 por cada nivel de espacio de conjuros por encima de nivel 5.
+
+//
+
+Curar heridas [Cure Wounds]@
+Nivel 1, evocación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Toque@
+Componenetes: V, S@
+Duración: Instantánea@
+Una criatura que tocas recupera un número de Puntos de Golpe igual a 1d8 + tu modificador de 
+característica para lanzar conjuros. Este conjuro no tiene efecto sobre muertos vivientes o constructos.
+A niveles superiores. Cuando lanzas este hechizo usando un espacio de conjuros de nivel 2 o superior, 
+la curación se incrementa en 1d8 por cada nivel de espacio de conjuros por encima de nivel 1.
+
+
+//
+
+
+Cuchilla protectora [Blade Ward]@
+Truco, abjuración@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Personal@
+Componenetes: V, S@
+Duración: 1 asalto.@
+Extiendes tu mano y trazas con él una runa de protección en el aire. Hasta el final del siguiente 
+turno tendrás resistencia contra daño contundente, perforante y cortante infligido por ataques de armas.
+
+//
+
+Crecimiento vegetal [Plant Growth]@
+Nivel 3, transmutación@
+Tiempo de lanzamiento: 1 acción u 8 horas@
+Alcance: 150 pies (30 casillas, 45 m)@
+Componenetes: V, S@
+Duración: Instantánea@
+Este conjuro canaliza vitalidad a las plantas dentro de un área específica. Hay dos usos posibles 
+para este conjuro, concediendo beneficios inmediatos o a largo plazo. Si lanzas el conjuro usando 
+1 acción, elige un punto dentro del alcance. Todas las plantas normales en un radio de 100 pies 
+(20 casillas, 30 m) centrado en ese punto se vuelven gruesas y sobrecrecidas. Una criatura moviéndose
+a través del área debe gastar 4 pies (1,2 m) de movimiento por cada 1 pie (30 cm) que se mueva.
+Puedes excluir una o más áreas de cualquier tamaño dentro del área del conjuro para que no sean afectadas.
+Sí lanzas este conjuro durante 8 horas, enriquecerás la tierra. Todas las plantas en un radio de la 
+mitad de 1 milla (8 km) centrado un punto dentro del alcance, se enriquecerán por 1 año. Las plantas 
+producirán el doble de la cantidad normal de comida cuando sean cosechadas.
+
+//
+
+Crear o destruir agua [Create or Destroy Water]@
+Nivel 1, transmutación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 30 pies (6 casillas, 9 m)@
+Componenetes: V, S, M (una gota de agua si quieres crear agua, o unos pocos granos de arena si la 
+quieres destruir)@
+Duración: Instantánea.@
+Puedes crear o destruir agua.@
+Crear agua. Creas 10 galones (37 litros) de agua limpia en un recipiente que se encuentra dentro 
+del alcance del conjuro. Alternativamente, el agua cae como lluvia en un cubo de 30 pies cuadrados 
+(6 casillas, 9 m), extinguiendo las llamas que puede haber en ese área.
+Destruir agua. Destruyes 10 galones (37 litros) de agua que se encuentre en un recipiente situado 
+dentro del alcance del conjuro. Alternativamente, destruyes niebla en un cubo cuadrado de 30 pies 
+(6 casillas, 9 m) dentro del alcance del conjuro. A niveles superiores. Cuando lanzas este hechizo 
+usando un espacio de conjuros de nivel 2 o superior, puedes crear o destruir 10 galones (37 litros) 
+de agua adicionales, o aumentar en 5 pies (1 casillas, 1,5 m) el tamaño del cubo, por cada nivel de 
+espacio de conjuros por encima de nivel 1.
+
+//
+
+Crear muerto viviente [Create Undead]@
+Nivel 6, nigromancia@
+Tiempo de lanzamiento: 1 minuto@
+Alcance: 10 pies (2 casillas, 3 m)@
+Componenetes: V,S,M (una olla de barro llena de tierra de una tumba, una olla de barro llena de 
+agua salobre, y una piedra de ónice [piedra semipreciosa variedad de las ágatas formada por capas 
+de diferentes colores] de 150 po por cada cadáver a crear)@
+Duración: Instantánea.@
+Este conjuro solo puede ser lanzado de noche. Elige hasta 3 cadáveres de humanoides de tamaño Medio o 
+Pequeño que se encuentren dentro del alcance del conjuro. Cada cadáver se convierte en un ghoul bajo 
+tu control (El DM tiene las estadísticas de estas criaturas). Como acción adicional en cada uno de tus
+turnos puedes enviar mentalmente órdenes a cualquiera de las criaturas animadas con este conjuro que 
+se encuentre a menos de 120 pies (24 casillas, 36 m) de ti (si controlas varias criaturas puedes dar 
+órdenes a alguna o a todas ellas a la vez, mandando la misma orden a cada uno). Tú decides que acción 
+realiza cada criatura y donde se moverá durante su siguiente turno, o puedes mandar una orden general, 
+como por ejemplo proteger una habitación particular o un pasillo. Si no das ninguna orden, las criaturas 
+sólo actuarán en defensa propia contra criaturas hostiles. Una vez que das una orden, la criatura 
+continúa hasta finalizarla. La criatura está bajo tu control durante 24 horas, pasadas las cuales deja 
+de obedecerte y de realizar cualquier orden que estuviera ejecutando. Para mantener el control de la
+criatura durante 24 horas más, debes lanzar este conjuro sobre la criatura antes de que el periodo de 
+24 horas finalice. Esta manera de utilizar el conjuro reafirma tu control hasta de 3 criaturas que hayas 
+animado anteriormente con este conjuro, en vez de sólo animar una nueva. A niveles superiores. 
+Cuando lanzas este hechizo usando un espacio de conjuros de nivel 7, puedes animar o reafirmar tu 
+control sobre 4 ghouls. Cuando lanzas este hechizo usando un espacio de conjuros de nivel 8, puedes 
+animar o reafirmar el control de 5 ghouls o 2 ghasts y wights. Cuando lanzas este hechizo usando un 
+espacio de conjuros de nivel 9, puedes animar o reafirmar tu control sobre 6 ghouls, 3 ghasts o wights, 
+o 2 momias.
+
+//
+
+Crear comida y agua [Create Food And Water]@
+Nivel 3, conjuración@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 30 pies (6 casillas, 9 m)@
+Componenetes: V, S@
+Duración: Instantánea@
+Creas 45 libras (20 kg) de comida y 30 galones (114 litros) de agua en el suelo o en recipientes 
+que se encuentran dentro del alcance del conjuro. Suficiente para mantener a 15 humanoides o 5 corceles 
+durante 24 horas. La comida es insípida pero nutritiva y se convertirá en despojos si no se consume 
+antes de 24 horas. El agua está limpia y no se corrompe.
+
+//
+
+Creación [Creation]@
+Nivel 5, ilusión@
+Tiempo de lanzamiento: 1 minuto@
+Alcance: 30 pies (6 casillas, 9 m)@
+Componenetes: V, S, M (un pequeño trozo de materia del mismo tipo que el elemento que quieres crear)@
+Duración: Especial@
+Tiras pedazos de material sombrío recogido en el Páramo Sombrío [Shadowfell] para crear objetos 
+inertes de materia vegetal como: telas, cuerda, madera o algo similar. También puedes utilizar este 
+conjuro para crear minerales como: piedras, cristal o metal. El objeto creado no puede ser más grande 
+que un cubo de 5 pies (1 casilla, 1,5 m), y debe ser de una forma y de un material que ya hayas visto 
+antes. La duración del conjuro depende del material del que se hace el objeto. Si el objeto está 
+compuesto de múltiples materiales, usa la duración más corta.
+Material Duración
+Materia vegetal 1 día
+Piedra o cristal 12 horas
+Metales preciosos 1 hora
+Gemas 10 minutos
+Adamantita o Mithril 1 minuto
+Si usas el material creado por este conjuro como material requerido para el lanzamiento de otro conjuro,
+este último falla. A niveles superiores. Cuando lanzas este hechizo usando un espacio de conjuros de 
+nivel 6 o superior, el cubo de material incrementa su tamaño en 5 pies (1 casilla 1,5 m) por cada nivel 
+de espacio de conjuros por encima de nivel 5.
+
+//
+
+
+Corona de locura [Crown of Madness]@
+Nivel 2, encantamiento@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 120 pies (24 casillas, 36 m)@
+Componenetes: V, S@
+Duración: Concentración, hasta 1 minuto@
+Un humanoide de tu elección que puedas ver dentro del alcance del conjuro debe tener éxito en una 
+tirada de salvación de Sabiduría o ser encantado por ti hasta que el conjuro finalice. Mientras el 
+objetivo esté encantado aparece sobre su cabeza una retorcida corona de púas de hierro y un brillo 
+de locura en sus ojos. La criatura encantada debe utilizar su acción antes de mover en cada uno de 
+sus turnos para realizar un ataque cuerpo a cuerpo contra una criatura que no sea ella misma que tú
+eliges mentalmente. El objetivo puede actuar de forma normal en su turno si no eliges ninguna criatura 
+o si no hay ninguna criatura a su alcance. En los siguientes turnos, debes usar tu acción para mantener 
+el control sobre el objetivo o el conjuro finaliza. El objetivo también puede realizar una tirada de 
+salvación basada en la Sabiduría al finalizar cada uno de sus turnos. Si supera la tirada el conjuro 
+acaba.
+
+
+//
+
+Cordón de flechas [Cordon of Arrows]
+Nivel 2, transmutación
+Tiempo de lanzamiento: 1 acción
+Alcance: 5 pies (1 casillas, 1,5 m)
+Componenetes: V, S, M (4 o más flechas o proyectiles)
+Duración: 8 horas
+Entierras 4 piezas de munición no mágica, flechas o proyectiles de ballesta, en el suelo dentro del 
+alcance para proteger una zona y los cubres de magia. Hasta que finalice el conjuro, cualquier criatura 
+que no seas tú, que se aproximé por primera vez en su turno o comience su turno a 30 pies
+(6 casillas, 9 m) de la munición, recibirá el impacto de uno de los proyectiles. La criatura debe 
+superar una tirada de salvación de Destreza o sufrir 1d6 puntos de daño perforante. La munición utilizada
+se destruye. El conjuro finaliza cuando no queda más munición. Cuando lanzas este conjuro, puedes elegir
+varias criaturas a tu elección que el conjuro ignora. A niveles superiores. Cuando lanzas este hechizo 
+usando un espacio de conjuros de nivel 3 o superior, la cantidad de munición que puede hechizarse se 
+incrementa en 2 por cada nivel de espacio de conjuros por encima de nivel 2.
+
+//
+
+Corcel fantasmal [Phantom Steed]@
+Nivel 3, ilusión@
+Tiempo de lanzamiento: 1 minuto@
+Alcance: 30 pies (6 casillas, 9 m)@
+Componenetes: V, S@
+Duración: 1 hora@
+Una criatura grande y cuasireal parecida a un caballo aparece en la suelo en un espacio desocupado
+de tu elección dentro del alcance. Tú decides la apariencia de la criatura, pero está equipada con 
+una silla de monta, un bozal y rienda. Cualquier equipamiento creado por el conjuro desaparece en un 
+soplo de humo si es alejado a más de 10 pies (2 casillas, 3 m) del corcel. En la duración del conjuro, 
+tú o una criatura que escojas puede montar el corcel. La criatura usa las estadísticas de un caballo de
+monta, excepto que tiene una velocidad de 100 pies (20 casillas, 30 m) y puede viajar 10 millas (16 km) 
+en una hora, o 13 millas (21 km) a paso rápido. Cuando el conjuro finaliza, el corcel se desvanece 
+gradualmente, dándole al jinete 1 minuto para desmontar. El conjuro finaliza si usas una acción para 
+cancelarlo o si el corcel sufre cualquier daño.
+
+//
