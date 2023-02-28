@@ -186,6 +186,7 @@ main section .bandeja .conjuro .cuerpo .tipo {
     margin:0px;
     display: flex;
     gap: 4px;
+    color: cRI
 }
 
 main section .bandeja .conjuro .cuerpo .tipo div {

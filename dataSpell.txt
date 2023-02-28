@@ -1,4 +1,48 @@
-"Clonar [Clone]@
+Prestidigitación [Prestidigitation]@
+Truco, transmutación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 10 pies (3 m)@
+Componenetes: V, S@
+Duración: Instantánea@
+Duración: Hasta 1 hora
+Este conjuro es un truco de magia menor que
+conjuradores novatos usan para practicar.
+Creas una de los siguientes efectos mágicos
+dentro del alcance:
+• Creas al instante un efecto sensorial
+inofensivo, como una ducha de chispas,
+un soplo de viento, una débil nota musical,
+un olor extraño.
+• Instantáneamente enciendes o apagas
+
+una vela, una antorcha o una pequeña fo-
+gata.
+
+• Instantáneamente puedes limpiar o man-
+char un objeto no más grande que 1 pie
+
+(0,02 m3) cúbicos.
+• Puedes helar, calentar o dar sabor hasta
+1 pie (0,02 m3) cúbico de material inerte
+por 1 hora.
+• Puedes colorear, hacer una pequeña
+marca o que un símbolo aparezca en un
+objeto o una superficie por 1 hora.
+
+• Creas una baratija no mágica o una ima-
+gen ilusoria que pueda caber en tu mano
+
+y dura hasta el final de tu siguiente turno.
+
+Si lanzas este conjuro en múltiples oca-
+siones, puedes tener hasta tres efectos no ins-
+tantáneos activos al mismo tiempo, y puedes
+
+cancelar un efecto como una acción.
+
+//
+
+Clonar [Clone]@
 Nivel 8, nigromancia@
 Tiempo de lanzamiento: 1 hora@
 Alcance: Toque@
@@ -850,7 +894,6 @@ sanación se incrementa en 10 por cada nivel de espacio de conjuros por encima d
 
 //
 
-
 Salto [Jump]@
 Nivel 1, transmutación@
 Tiempo de lanzamiento: 1 acción@
@@ -859,16 +902,14 @@ Componenetes: V, S, M (una pata de saltamontes)@
 Duración: 1 minuto@
 Tocas una criatura. La distancia de salto que puede cubrir esa criatura es triplicada hasta que el conjuro finalice.
 
-
 //
 
-
-Salpicadura de ácido [Acid Splash]
-Truco, conjuración
-Tiempo de lanzamiento: 1 acción
-Alcance: 60 pies (12 casillas, 18 m)
-Componenetes: V, S
-Duración: instantánea
+Salpicadura de ácido [Acid Splash]@
+Truco, conjuración@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 60 pies (12 casillas, 18 m)@
+Componenetes: V, S@
+Duración: instantánea@
 Arrojas una burbuja de ácido. Eliges a una criatura o a dos criaturas dentro del alcance siempre que entre ellas 
 estén a menos de 5 pies (1 casilla, 1,5 m) la una de la otra. El objetivo debe superar una tirada de salvación de
 Destreza o sufrir 1d6 puntos de daño por ácido. El daño de este conjuro se incrementa en un 1d6 cuando alcanzas el 
@@ -2026,7 +2067,7 @@ y no puede ser disipado. De lo contrario, el muro desaparece cuando el conjuro f
 
 //
 
-
+Muro de hielo [Wall of ice]@
 Nivel 6, evocación@
 Tiempo de lanzamiento: 1 acción@
 Alcance: 120 pies (24 casillas, 48 m)@
@@ -3088,13 +3129,13 @@ estar a 30 pies (6 casillas, 9 m) la una de la otra cuando las eliges como objet
 
 //
 
-Hambre de Hadar [Hunger of Hadar]
-Nivel 3, conjuración
-Tiempo de lanzamiento: 1 acción
-Alcance: 150 pies (30 casillas, 45 m)
+Hambre de Hadar [Hunger of Hadar]@
+Nivel 3, conjuración@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 150 pies (30 casillas, 45 m)@
 Componenetes: V, S, M (un tentáculo de
-pulpo encurtido)
-Duración: Concentración, hasta 1 minuto
+pulpo encurtido)@
+Duración: Concentración, hasta 1 minuto@
 Abres una entrada a la oscuridad entre las estrellas, una región infestada de horrores desconocidos. 
 Una esfera de 20 pies (4 casillas, 6m) de radio de oscuridad y frio intenso aparece, centrado en un 
 punto dentro del alcance y manteniéndose durante la duración del conjuro. Este vacío está lleno con 
@@ -4215,12 +4256,12 @@ hasta 8 horas.
 
 //
 
-Dominar monstruo [Dominate Monster]
-Nivel 8, encantamiento
-Tiempo de lanzamiento: 1 acción
-Alcance: 60 pies (18 m)
-Componenetes: V, S
-Duración: Concentración, hasta 1 hora
+Dominar monstruo [Dominate Monster]@
+Nivel 8, encantamiento@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 60 pies (18 m)@
+Componenetes: V, S@
+Duración: Concentración, hasta 1 hora@
 Intentas hechizar a una criatura a la que puedas ver dentro del alcance. Esta debe superar una tirada 
 de salvación de Sabiduría o quedar encantada mientras dure el conjuro. Si tú o criaturas aliadas contigo
 estáis luchando contra ella, esta tiene ventaja en la tirada de salvación.
@@ -4299,12 +4340,12 @@ igual o menor que el nivel del espacio de conjuros que usaste.
 
 //
 
-Disipar el bien y el mal [Dispel Evil and Good]
-Nivel 5, abjuración
-Tiempo de lanzamiento: 1 acción
-Alcance: Personal
-Componenetes: V, S, M (agua bendita o plata y hierro en polvo)
-Duración: Concentración, hasta 1 minuto
+Disipar el bien y el mal [Dispel Evil and Good]@
+Nivel 5, abjuración@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Personal@
+Componenetes: V, S, M (agua bendita o plata y hierro en polvo)@
+Duración: Concentración, hasta 1 minuto@
 Una energía reluciente te envuelve y te protege de seres feéricos, muertos vivientes y
 criaturas originadas más allá del Plano Material. Mientras dure el conjuro, celestiales, elementales,
 seres feéricos, infernales y muertos vivientes sufren desventaja en sus tiradas de ataque contra ti.
@@ -4321,12 +4362,12 @@ Reino salvaje de las hadas.
 
 //
 
-Disfrazarse [Disguise Self]
-Nivel 1, ilusión
-Tiempo de lanzamiento: 1 acción
-Alcance: Personal
-Componenetes: V, S
-Duración: 1 hora
+Disfrazarse [Disguise Self]@
+Nivel 1, ilusión@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Personal@
+Componenetes: V, S@
+Duración: 1 hora@
 Haces que tu aspecto, incluyendo ropa, armadura, armas y otras posesiones en tu persona, sea diferente 
 hasta que finalice el conjuro o hasta que uses tu acción para cancelarlo. Puedes parecer 1 pie (30 cm) 
 más bajo o más alto y puedes parecer más delgado, más gordo o algo intermedio. No puedes cambiar el tipo
@@ -4845,12 +4886,12 @@ acaba.
 
 //
 
-Cordón de flechas [Cordon of Arrows]
-Nivel 2, transmutación
-Tiempo de lanzamiento: 1 acción
-Alcance: 5 pies (1 casillas, 1,5 m)
-Componenetes: V, S, M (4 o más flechas o proyectiles)
-Duración: 8 horas
+Cordón de flechas [Cordon of Arrows]@
+Nivel 2, transmutación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: 5 pies (1 casillas, 1,5 m)@
+Componenetes: V, S, M (4 o más flechas o proyectiles)@
+Duración: 8 horas@
 Entierras 4 piezas de munición no mágica, flechas o proyectiles de ballesta, en el suelo dentro del 
 alcance para proteger una zona y los cubres de magia. Hasta que finalice el conjuro, cualquier criatura 
 que no seas tú, que se aproximé por primera vez en su turno o comience su turno a 30 pies
@@ -5021,12 +5062,12 @@ hechizo de contingencia finaliza. También finaliza el conjuro si el componente 
 
 //
 
-Contagio [Contagion]
-Nivel 5, nigromancia
-Tiempo de lanzamiento: 1 acción
-Alcance: Toque
-Componenetes: V, S
-Duración: 7 días
+Contagio [Contagion]@
+Nivel 5, nigromancia@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Toque@
+Componenetes: V, S@
+Duración: 7 días@
 Tu toque inflige enfermedad. Realiza un ataque de conjuro cuerpo a cuerpo contra una criatura a tu 
 alcance. En caso de impactar, contagia a la criatura una enfermedad de tu elección entre las opciones 
 que se describen debajo. Al final del turno del objetivo este debe realizar una tirada de salvación de 
@@ -5252,12 +5293,12 @@ de 5 o inferior.
 
 //
 
-Conjurar bombardeo [Conjure Barrage]
-Nivel 3, conjuración
-Tiempo de lanzamiento: 1 acción
-Alcance: Personal (cono de 60 pies [12 casillas, 18 m])
-Componenetes: V, S, M (un proyectil de munición o un arma arrojadiza)
-Duración: Instantánea
+Conjurar bombardeo [Conjure Barrage]@
+Nivel 3, conjuración@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Personal (cono de 60 pies [12 casillas, 18 m])@
+Componenetes: V, S, M (un proyectil de munición o un arma arrojadiza)@
+Duración: Instantánea@
 Arrojas un arma no mágica o disparas un proyectil de munición no mágica al aire para
 crear un cono de armas idénticas que se lanzan y luego desaparecen. Cada criatura que se
 encuentre en un cono de 60 pies (12 casillas, 18 m) debe realizar una tirada de salvación de
@@ -5931,14 +5972,14 @@ cual hace de forma segura. Si no puede aterrizar después de 1 minuto, la criatu
 
 //
 
-Cambiar de forma [Shapechange]
-Nivel 9, transmutación
-Tiempo de lanzamiento: 1 acción
-Alcance: Personal
+Cambiar de forma [Shapechange]@
+Nivel 9, transmutación@
+Tiempo de lanzamiento: 1 acción@
+Alcance: Personal@
 Componenetes: V, S, M (una diadema de jade
 con un valor de al menos 1.500 po, que debes
-poner en tu cabeza antes de lanzar el conjuro)
-Duración: Concentración, hasta 1 hora
+poner en tu cabeza antes de lanzar el conjuro)@
+Duración: Concentración, hasta 1 hora@
 Adoptas la forma de otra criatura durante la
 duración del conjuro. La nueva forma puede
 ser de cualquier criatura con un valor de desafío igual o menor a tu nivel. La criatura no
@@ -6890,7 +6931,6 @@ encima de nivel 2.
 
 //
 
-
 Calmar emociones [Calm Emotions]@
 Nivel 2, encantamiento@
 Tiempo de lanzamiento: 1 acción@
@@ -6916,4 +6956,3 @@ sus amigos están siendo dañados.
 Cuando el conjuro finaliza la criatura
 vuelve a ser hostil otra vez, salvo que el DM
 precise lo contrario.
-
